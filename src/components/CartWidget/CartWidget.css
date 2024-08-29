@@ -1,0 +1,13 @@
+div {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 1.5rem;
+}
+
+.bi-bag-heart{
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.bi-bag-heart:hover {
+    color: black;
+}
