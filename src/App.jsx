@@ -5,13 +5,15 @@ import './App.css'
 import NavBar from './components/NavBar/NavBar'
 import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import CartWidget from './components/CartWidget/CartWidget'
+import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer"
 
 
 const App = () => {
   return (
     <>
     <NavBar></NavBar>
-    <ItemListContainer greeting="Productos"/>
+    <ItemListContainer/>
+    <ItemDetailContainer/>
     </>
   )
 }

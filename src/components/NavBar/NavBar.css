@@ -9,7 +9,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(128, 16, 63);
+    background-color: rgb(123, 194, 175);
     padding-inline: 3rem;
     padding-block: 1rem;
     padding-inline-end: 10rem;
@@ -30,6 +30,6 @@ li:hover {
 h1 {
     font-family: "Overlock", sans-serif;
     font-size: 3rem;
-    color: rgb(206, 140, 140);
+    color: rgb(105, 23, 67);
 }
 

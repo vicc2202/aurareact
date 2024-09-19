@@ -1,0 +1,38 @@
+.cardProducto {
+    background-color: rgb(230, 215, 222);
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 27rem ;
+    margin: 1rem;
+    flex-direction: column;
+}
+
+.cardProducto h3 {
+    font-size: 2rem;
+}
+
+.cardProducto p {
+    font-size: 1.7rem;
+}
+
+.cardProducto img {
+    width: 25rem;
+    max-height: 25rem;
+    border-radius: 1rem;
+}
+
+.cardProducto button {
+    padding: 0.5rem;
+    border-radius: 0.7rem;
+    background-color: rgb(122, 34, 70);
+    color: white;
+    border: 0;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.cardProducto button:hover {
+    background-color: white;
+    color: rgb(122, 34, 70);
+}

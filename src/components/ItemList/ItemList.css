@@ -1,0 +1,9 @@
+.containerProducto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-inline: 7rem;
+    justify-content: space-around;
+    text-align: center;
+}
+

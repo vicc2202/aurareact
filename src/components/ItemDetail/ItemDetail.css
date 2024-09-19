@@ -1,0 +1,21 @@
+.itemDetail {
+    margin: 8rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    background-color: rgb(126, 34, 74);
+    color: white;
+    max-width: 70rem;
+    margin-left: 13rem;
+    border-radius: 2rem;
+}
+
+.itemDetail img {
+    max-width: 20rem;
+    border-radius: 1rem;
+}
+
+.itemDetail1 {
+    text-align: center;
+}
