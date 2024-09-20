@@ -27,9 +27,10 @@ li:hover {
     color: rgb(54, 20, 20);
 }
 
-h1 {
+.aura {
     font-family: "Overlock", sans-serif;
     font-size: 3rem;
     color: rgb(105, 23, 67);
+    text-decoration: none;
 }
 
