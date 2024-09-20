@@ -6,21 +6,21 @@ import { Link, NavLink } from "react-router-dom"
 const NavBar = () => {
   return (
     <header>
-      <Link to="/">
-      <h1 className="aura">AURA</h1>
+      <Link to="/" className="aura">
+      <h1>AURA</h1>
       </Link>
         <nav>
             <ul>
-              <NavLink to="categoria/cremas">
+              <NavLink to="categoria/cremas" className="link">
               <li>Cremas</li>
               </NavLink>
-              <NavLink to="/categoria/limpiadores">
+              <NavLink to="/categoria/limpiadores" className="link">
               <li>Limpiadores</li>
               </NavLink>
-              <NavLink to="categoria/serums">
+              <NavLink to="categoria/serums" className="link">
               <li>Serums</li>
               </NavLink>
-              <NavLink to="categoria/tonicos">
+              <NavLink to="categoria/tonicos" className="link">
               <li>Tónicos</li>
               </NavLink>
             </ul>

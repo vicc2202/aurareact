@@ -19,10 +19,6 @@ const App = () => {
     <BrowserRouter>
         <NavBar/>
             <Routes>
-                <Route path='/cremas' element="{<Cremas/>}"/>
-                <Route path='/limpiadores' element="{<Limpiadores/>}"/>
-                <Route path='/serums' element="{<Serums/>}"/>
-                <Route path='/tonicos' element="{<Tonicos/>}"/>
                 <Route path='/' element={<ItemListContainer/>}/>
                 <Route path='/categoria/:idCategoria' element={<ItemListContainer/>}></Route>
                 <Route path="/item/:idItem" element={<ItemDetailContainer/>}></Route>

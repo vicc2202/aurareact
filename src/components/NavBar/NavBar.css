@@ -19,18 +19,22 @@ li {
     display: inline-block;
     margin-inline: 2rem;
     font-family: "PT Sans Narrow", sans-serif;
-    font-size: 1.3rem;
+    font-size: 2rem;
     cursor: pointer;
 }
 
 li:hover {
-    color: rgb(54, 20, 20);
+    color: rgb(104, 26, 60);
 }
 
 .aura {
     font-family: "Overlock", sans-serif;
-    font-size: 3rem;
+    font-size: 2rem;
     color: rgb(105, 23, 67);
     text-decoration: none;
+}
+
+.link:visited {
+    color: white;
 }
 
